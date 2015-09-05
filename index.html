@@ -29,88 +29,88 @@
 
 			<fieldset name="contactgegevens">
 				<legend>contactgegevens:</legend>
-					Naam <input type="name" name="fullname"><br>
+					Naam <input type="text" name="fullname"><br>
 					Bedrijf <input type="text" name="company"><br>
 					Adres <input type="text" name="address"><br>
 					Postcode <input type="text" name="zipcode" pattern="[1-9][0-9][0-9][0-9][a-z][a-z]"><br>
 					Plaats <input type="text" name="city"><br>
 					Telefoonnummer <input type="tel" name="phonenumber"><br>
 					Email <input type="email" name="email"><br>
-			</fieldset></br>
+			</fieldset>
 
 			<fieldset name="type">
 				<legend>Ik wil mijn aanmelden:</legend>
 					<fieldset name="project">
-						<input type="radio" name="signup"> Project</br></br>
+						<input type="radio" name="signup"> Project<br><br>
 
 							<fieldset name="details">
 								<legend>Omschrijving</legend>
-									1. titel <input type="text" name="title"></br>
-									2. Opdrachtomschrijving <input type="text" name="description"></br>
-									3. Doelgroepomschrijving <textarea name="description"></textarea></br>
-									4. Doelstellingen <textarea name="goals"></textarea></br>
-									5. looptijd <input type="date-local" name="begin-date"> tot <input type="date-local" name="end-date"></br>
-									6. Deadline<input type="date-local" name="deadline"></br>
-							</fieldset></br>
+									1. titel <input type="text" name="title"><br>
+									2. Opdrachtomschrijving <input type="text" name="description"><br>
+									3. Doelgroepomschrijving <textarea name="description"></textarea><br>
+									4. Doelstellingen <textarea name="goals"></textarea><br>
+									5. looptijd <input type="text" name="begin-date"> tot <input type="text" name="end-date"><br>
+									6. Deadline<input type="text" name="deadline"><br>
+							</fieldset><br>
 
 							<fieldset name="yearofschool">
 								<legend>Geschikt voor</legend>
-									<input type="radio" name="schoolyear">1e jaars</br>
-									<input type="radio" name="schoolyear">2e jaars</br>
-									<input type="radio" name="schoolyear">3e jaars</br>
-									<input type="radio" name="schoolyear">4e jaars</br>
-							</fieldset></br>
+									<input type="radio" name="schoolyear">1e jaars<br>
+									<input type="radio" name="schoolyear">2e jaars<br>
+									<input type="radio" name="schoolyear">3e jaars<br>
+									<input type="radio" name="schoolyear">4e jaars<br>
+							</fieldset><br>
 
 							<fieldset name="commentary">
 								<legend>Opmerking</legend>
-									<textarea type="text" name="goals"></textarea></br>
-							</fieldset></br>
+									<textarea name="goals"></textarea><br>
+							</fieldset><br>
 
-					</fieldset></br>
+					</fieldset><br>
 
 					<fieldset name="intership">
-					<input type="radio" name="signup"> Stage</br></br>
+					<input type="radio" name="signup"> Stage<br><br>
 
 						<fieldset name="yearofschool">
 								<legend>Geschikt voor</legend>
-									<input type="radio" name="yearintership"> 1. 2e jaars</br>
-									<input type="radio" name="yearintership"> 2. afstudeerstudenten</br>
-									<input type="radio" name="yearintership"> 3. onbekend</br>
-						</fieldset></br>
+									<input type="radio" name="yearintership"> 1. 2e jaars<br>
+									<input type="radio" name="yearintership"> 2. afstudeerstudenten<br>
+									<input type="radio" name="yearintership"> 3. onbekend<br>
+						</fieldset><br>
 
 						<fieldset name="duration">
 								<legend>Hoe lang is de stage?</legend>
-									<input type="radio" name="duration"> 10 weken</br>
-									<input type="radio" name="duration"> 20 weken</br>
+									<input type="radio" name="duration"> 10 weken<br>
+									<input type="radio" name="duration"> 20 weken<br>
 
-									Begin datum <input type="date-local" name="begin-date">
+									Begin datum <input type="text" name="begin-date">
 
-						</fieldset></br>
+						</fieldset><br>
 
 						<fieldset name="work">
 								<legend>Beschrijving werkzaamheden</legend>
-								<textarea name="description of work"></textarea></br>
-						</fieldset></br>
+								<textarea name="description of work"></textarea><br>
+						</fieldset><br>
 
 						<fieldset name="details">
 								<legend>Beschrijving stagebedrijf</legend>
-									1. Bedrijfsnaam <input type="text" name="company"></br>
-									2. Adres <input type="text" name="address"></br>
+									1. Bedrijfsnaam <input type="text" name="company"><br>
+									2. Adres <input type="text" name="address"><br>
 									3. Postcode <input type="text" name="zipcode" pattern="[1-9][0-9][0-9][0-9][a-z][a-z]"><br>
-									4. Plaats <input type="text" name="city"></br>
-									5. Sector <input type="text" name="workfield"></br>
-									6. Core business <input type="text" name="business"></br>
-							</fieldset></br>		
+									4. Plaats <input type="text" name="city"><br>
+									5. Sector <input type="text" name="workfield"><br>
+									6. Core business <input type="text" name="business"><br>
+							</fieldset><br>		
 
 							<fieldset name="commentary">
 								<legend>Opmerking</legend>
-									<textarea type="text" name="goals"></textarea></br>
-							</fieldset></br>				
+									<textarea name="goals"></textarea><br>
+							</fieldset><br>				
 
 					</fieldset>
 
 			</fieldset>
-
+			<input type="submit">
 			</form>
 
 		</section>
